@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Dappex 
 
-First, run the development server:
+Dappex is an app where you can transfer ETH'S to another Wallet.
+This app is divided into 5 sections. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+NOTE: This app is not Mobile Responsive. This will only work in Desktop's.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+NOTE: You need Metamask to run the app. Download Meatmask from here https://metamask.io/
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# This App is Divided into 5 sections
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Your Profile
+- Balance / Tokens
+- Your Transactions 
+- Nft's / Your Nft's 
+- Send ETH 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Section 1 : Your Profile
 
-## Learn More
+Once the user log's into the app, this section will display a random username & the user's walletAddress. 
 
-To learn more about Next.js, take a look at the following resources:
+You can even change your userName & keep it something else. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Section 2 : Balance / Tokens
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+In this section, you can view your total balance of  ETH, SOL & BTC . 
 
-## Deploy on Vercel
+# Section 3 : Your Transactions 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+In this section, you can view your previous transactions which you have done. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This section will show you your last 5 transactions & if you click on your transactions, it will redirect you to https://rinkeby.etherscan.io/ & show the list of each transactions. 
+
+# Section 4 : Nft's / Your Nft's 
+
+This section will show how many Nft's have you earned with the url of the NFT. 
+
+If you don't have a NFT, the section will be blank. 
+
+# Section 5 : Send ETH
+
+This section will allow you to send eth to the receiver. 
+
+Once you transfer the ETH, it will show up in your wallet in a few seconds. 
+
+Once you transfer the ETH, the transaction address will show up in the 'LAST 5 TRANSACTIONS MADE'. From there you can view the list of the transaction you have made. 
+
+
+
+## Tech Stack
+
+- Chakra UI
+- React Dom 
+- Moralis / React-moralis
+- Framer Motion
+- Web3 Auth / Web3 Provider
+- Metamask 
+- NextJS 
+- Emotion - React / Styled
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`NEXT_PUBLIC_APPID`
+
+`NEXT_PUBLIC_SERVER_URL`
+
+
+## Badges
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+
