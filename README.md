@@ -1,7 +1,7 @@
 
 # Dappex 
 
-Dappex is an app where you can transfer ETH'S to another Wallet.
+Dappex is an app where you can Change your username once you LogIn, see your last 5 transactions, see youy NFT's & transfer ETH'S to another Wallet.
 This app is divided into 5 sections. 
 
 NOTE: This app is not Mobile Responsive. This will only work in Desktop's.
